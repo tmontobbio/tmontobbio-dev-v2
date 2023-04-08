@@ -1,38 +1,59 @@
+:root {
+  --text-color: rgba(255, 255, 255, 0.7);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url("../img/starry2.gif");
+  background-position: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+li {
+  margin: 0;
+  padding: 0;
+  font-family: 'Press Start 2P', cursive;
+}
+
 .App {
-  text-align: center;
+  display: grid;
+  grid-template-columns: 5vw 90vw 5vw;
+  grid-template-rows: 0vh 100vh 0vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#main {
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 2em;
+  position: sticky;
+  line-height: 2.25em;
+  height: 2.25em;
 }
 
-.App-link {
-  color: #61dafb;
+#nav h1 {
+  color: var(--text-color);
+  font-size: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#nav img {
+  height: 100%;
 }
