@@ -6,6 +6,30 @@
   display: none;
 }
 
+@keyframes pop {
+  0% {
+    scale: calc(1.0)
+  }
+
+  50% {
+    scale: calc(1.1)
+  }
+
+  100% {
+    scale: calc(1.0)
+  }
+}
+
+@keyframes textFadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: .7;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -49,11 +73,31 @@ li {
   height: 2.25em;
 }
 
+#nav span {
+  display: flex;
+}
+
 #nav h1 {
   color: var(--text-color);
   font-size: 2em;
 }
 
+#nav li {
+  color: var(--text-color);
+  font-size: 1em;
+  list-style: none;
+  display: inline-block;
+  padding-right: 2em;
+  animation: fadeIn 1s;
+}
+
 #nav img {
   height: 100%;
+  opacity: .7;
+}
+
+#nav img:hover,
+#nav li:hover {
+  animation: pop 1s;
+  animation-iteration-count: infinite;
 }
