@@ -161,5 +161,6 @@ a {
 
   #nav li {
     font-size: .8em;
+    text-align: right;
   }
 }
