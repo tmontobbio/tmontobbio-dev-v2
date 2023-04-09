@@ -37,7 +37,7 @@
 
 html {
   background-image: url("../img/starry2.gif");
-  background-position: fixed;
+  background-attachment: fixed;
 }
 
 h1,
@@ -56,12 +56,21 @@ li {
   grid-template-rows: 0vh 100vh 0vh;
 }
 
+
+#home,
+#about,
+#projects,
+#contact {
+  height: 100vh;
+}
+
 #main {
   grid-column: 2;
   grid-row: 2;
   background-color: rgba(0, 0, 0, 0.4);
   border-left: 1px solid white;
   border-right: 1px solid white;
+  overflow: auto;
 }
 
 #nav {
@@ -100,4 +109,16 @@ li {
 #nav li:hover {
   animation: pop 1s;
   animation-iteration-count: infinite;
+}
+
+@media (max-width: 1440px) {
+  .App {
+    display: flex;
+  }
+
+  #main {
+    border-left: none;
+    border-right: none;
+    width: 100vw;
+  }
 }
