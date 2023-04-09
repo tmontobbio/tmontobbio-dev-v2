@@ -1,5 +1,5 @@
 :root {
-  --text-color: rgba(255, 255, 255, 0.7);
+  --text-color: rgba(255, 255, 255, 0.8);
 }
 
 ::-webkit-scrollbar {
@@ -50,10 +50,12 @@ li {
   font-family: 'Press Start 2P', cursive;
 }
 
+a {
+  cursor: pointer;
+}
+
 .App {
-  display: grid;
-  grid-template-columns: 5vw 90vw 5vw;
-  grid-template-rows: 0vh 100vh 0vh;
+  margin: 0vh 5vw 0vh 5vw;
 }
 
 
@@ -64,26 +66,44 @@ li {
   height: 100vh;
 }
 
+#home {
+  background-color: rgba(255, 119, 119, 0.3);
+}
+
+#about {
+  background-color: rgba(255, 221, 119, 0.3);
+}
+
+#projects {
+  background-color: rgba(169, 255, 119, 0.3);
+}
+
+#contact {
+  background-color: rgba(119, 255, 235, 0.3);
+}
+
 #main {
-  grid-column: 2;
-  grid-row: 2;
   background-color: rgba(0, 0, 0, 0.4);
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
   overflow: auto;
+  width: 90vw;
 }
 
 #nav {
   display: flex;
   justify-content: space-between;
-  padding: 2em;
-  position: sticky;
+  position: fixed !important;
+  top: 0;
+  padding: 1.25em;
   line-height: 2.25em;
   height: 2.25em;
+  max-height: 125px;
 }
 
 #nav span {
-  display: flex;
+  text-align: left;
+  max-height: 100%;
 }
 
 #nav h1 {
@@ -95,14 +115,17 @@ li {
   color: var(--text-color);
   font-size: 1em;
   list-style: none;
-  display: inline-block;
   padding-right: 2em;
   animation: fadeIn 1s;
 }
 
-#nav img {
-  height: 100%;
+#menu img {
   opacity: .7;
+  height: 3em;
+}
+
+.spacer {
+  width: 20px;
 }
 
 #nav img:hover,
@@ -120,5 +143,20 @@ li {
     border-left: none;
     border-right: none;
     width: 100vw;
+    background-color: rgba(0, 0, 0, 0.0);
+  }
+
+  #nav {
+    padding: 2em;
+    line-height: 2.25em;
+    height: 2.25em;
+  }
+
+  #nav h1 {
+    font-size: 1.5em;
+  }
+
+  #nav li {
+    font-size: .8em;
   }
 }
