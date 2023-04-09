@@ -96,7 +96,7 @@ a {
   position: fixed !important;
   top: 0;
   padding: 1.25em;
-  line-height: 2.25em;
+  line-height: 3.25em;
   height: 2.25em;
   max-height: 125px;
 }
@@ -124,6 +124,8 @@ a {
   height: 3em;
 }
 
+#menu {}
+
 .spacer {
   width: 20px;
 }
@@ -137,6 +139,7 @@ a {
 @media (max-width: 1440px) {
   .App {
     display: flex;
+    margin: 0;
   }
 
   #main {
