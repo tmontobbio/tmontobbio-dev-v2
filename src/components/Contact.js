@@ -1,7 +1,11 @@
+import { FaGithub, FaGoogle, FaLinkedinIn } from "react-icons/fa6";
+
 export default function Contact() {
     return (
         <div id="contact">
-            <h3>Contact</h3>
+            <FaGithub />
+            <FaGoogle />
+            <FaLinkedinIn />
         </div>
     )
 }

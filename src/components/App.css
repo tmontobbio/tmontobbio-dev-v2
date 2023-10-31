@@ -77,12 +77,13 @@ a {
 }
 
 #nav {
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
-  position: fixed !important;
   top: 0;
+  position: fixed !important;
   padding: 1.25em;
   line-height: 3.25em;
+  width: 100vw;
   height: 2.25em;
   max-height: 125px;
 }
@@ -95,6 +96,7 @@ a {
 #nav h1 {
   color: var(--text-color);
   font-size: 2em;
+  margin-right: 10em;
 }
 
 #nav li {
