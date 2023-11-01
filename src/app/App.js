@@ -1,9 +1,8 @@
 import './App.css';
-import Nav from './Nav';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
-import Projects from './Projects'
+import Nav from './nav/Nav';
+import About from './about/About';
+import Contact from './contact/Contact';
+import Projects from './projects/Projects'
 
 function App() {
 
@@ -11,7 +10,6 @@ function App() {
     <div className="App">
       <div id="main">
         <Nav />
-        {/* <Home /> */}
         <About />
         <Projects />
         <Contact />

@@ -1,4 +1,4 @@
-import rocket from "../img/rocket.png"
+import rocket from "./rocket.png"
 import { Link } from "react-scroll"
 import { useState } from 'react';
 
