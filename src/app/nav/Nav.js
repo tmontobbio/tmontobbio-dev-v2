@@ -1,6 +1,7 @@
 import rocket from "./rocket.png"
 import { Link } from "react-scroll"
 import { useState } from 'react';
+import './Nav.css';
 
 export default function Nav() {
 
@@ -14,14 +15,11 @@ export default function Nav() {
             <div id="menu">
                 <img src={rocket} alt="rocket" onClick={toggleNavVisible} />
                 {navVisible && <span>
-                    {/* <Link to="home" spy={true} smooth={true} duration={900} onClick={toggleNavVisible}>
-                        <li>Home</li>
-                    </Link> */}
-                    <Link to="about" spy={true} smooth={true} duration={600} onClick={toggleNavVisible}>
-                        <li>About</li>
-                    </Link>
                     <Link to="projects" spy={true} smooth={true} duration={600} onClick={toggleNavVisible}>
                         <li>Projects</li>
+                    </Link>
+                    <Link to="about" spy={true} smooth={true} duration={600} onClick={toggleNavVisible}>
+                        <li>About</li>
                     </Link>
                     <Link to="contact" spy={true} smooth={true} duration={600} onClick={toggleNavVisible}>
                         <li>Contact</li>

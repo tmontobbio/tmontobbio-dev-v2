@@ -1,0 +1,19 @@
+@keyframes pop {
+    0% {
+        scale: calc(1.0)
+    }
+
+    50% {
+        scale: calc(1.1)
+    }
+
+    100% {
+        scale: calc(1.0)
+    }
+}
+
+#contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 3em;
+}

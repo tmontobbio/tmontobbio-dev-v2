@@ -1,0 +1,42 @@
+#nav {
+    display: inline-flex;
+    justify-content: space-between;
+    top: 0;
+    position: fixed !important;
+    padding: 1.25em;
+    line-height: 3.25em;
+    width: 100vw;
+    height: 2.25em;
+    max-height: 125px;
+}
+
+#nav span {
+    text-align: left;
+    max-height: 100%;
+}
+
+#nav h1 {
+    color: var(--text-color);
+    font-size: 2em;
+    margin-right: 10em;
+}
+
+#nav li {
+    color: var(--text-color);
+    text-align: left;
+    font-size: 1em;
+    list-style: none;
+    padding-right: 2em;
+    animation: fadeIn 1s;
+}
+
+#nav img:hover,
+#nav li:hover {
+    animation: pop 1s;
+    animation-iteration-count: infinite;
+}
+
+#menu img {
+    opacity: .7;
+    height: 3em;
+}
