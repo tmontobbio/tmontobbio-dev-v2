@@ -1,0 +1,9 @@
+#projects {
+    display:inline-flex;
+    flex-direction: row;
+    gap:4vw;
+    height: 50vh;
+    max-width: 90vw;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}

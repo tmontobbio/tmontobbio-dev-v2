@@ -2,19 +2,22 @@ import rocket from "./rocket.png"
 import { Link } from "react-scroll"
 import { useState, useEffect } from 'react';
 import './Nav.css';
+import '../App.css';
 
 export default function Nav() {
     const [show, setShow] = useState(true)
     const [menuVisible, setMenuVisible] = useState(false)
+
     const toggleMenuVisible = () => {
         setMenuVisible(!menuVisible)
     }
 
     const controlNavBar = () => {
         if (window.scrollY > 20) {
-            setShow(true)
-        } else {
             setShow(false)
+            setMenuVisible(false)
+        } else {
+            setShow(true)
         }
     }
 
@@ -27,8 +30,8 @@ export default function Nav() {
 
 
     return (
-        <div id="nav" className={show && 'show'}>
-            <div id="menu">
+        <div id="nav" className={!show && 'show'}>
+            {/* <div id="menu">
                 <img src={rocket} alt="rocket" onClick={toggleMenuVisible} />
                 {menuVisible && <span>
                     <Link to="projects" spy={true} smooth={true} duration={600} onClick={toggleMenuVisible}>
@@ -41,8 +44,8 @@ export default function Nav() {
                         <li>Contact</li>
                     </Link>
                 </span>}
-            </div>
-            <h1>Tyler Montobbio</h1>
+            </div> */}
+            <h1>Tyler Montobbio Designs</h1>
         </div >
     )
 }

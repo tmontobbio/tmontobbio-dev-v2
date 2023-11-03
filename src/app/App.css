@@ -60,12 +60,6 @@ a {
   margin: 0vh 5vw 0vh 5vw;
 }
 
-#projects {
-  height: 100vh;
-  padding: 5em 2em 2em 2em;
-  border: 2px solid rgb(255, 255, 255);
-}
-
 #main {
   background-color: rgba(0, 0, 0, 0.4);
   overflow: auto;

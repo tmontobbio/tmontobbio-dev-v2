@@ -1,0 +1,7 @@
+.project{
+    display:inline-flex;
+}
+
+.project img{
+    max-height: 100%;
+}
