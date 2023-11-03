@@ -1,5 +1,5 @@
 :root {
-  --text-color: rgba(255, 255, 255, 0.8);
+  --text-color: rgba(255, 255, 255, 0.7);
 }
 
 ::-webkit-scrollbar {
@@ -44,7 +44,8 @@ h1,
 h2,
 h3,
 h4,
-li {
+li,
+p {
   margin: 0;
   padding: 0;
   font-family: 'Press Start 2P', cursive;
@@ -59,7 +60,6 @@ a {
   margin: 0vh 5vw 0vh 5vw;
 }
 
-#about,
 #projects {
   height: 100vh;
   padding: 5em 2em 2em 2em;

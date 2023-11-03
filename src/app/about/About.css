@@ -1,0 +1,17 @@
+#about{
+    padding: 5em 2em 2em 2em;
+}
+
+#img-container{
+    float: left;
+}
+
+#about img{
+    height: 80vh;
+    padding: 0em 2em 2em 0em;
+    border-radius:2em;
+}   
+
+#about p{
+    font-size: 2em;
+}
