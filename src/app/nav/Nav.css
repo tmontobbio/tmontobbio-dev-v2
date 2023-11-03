@@ -1,13 +1,16 @@
 #nav {
     display: inline-flex;
     justify-content: space-between;
+    position: fixed;
     top: 0;
-    position: fixed !important;
     padding: 1.25em;
-    line-height: 3.25em;
     width: 100vw;
     height: 2.25em;
-    max-height: 125px;
+    max-height: 150px;
+}
+
+.show{
+    display: none !important;
 }
 
 #nav span {
@@ -36,6 +39,9 @@
     animation-iteration-count: infinite;
 }
 
+#menu{
+    line-height: 2.25em;
+}
 #menu img {
     opacity: .7;
     height: 3em;

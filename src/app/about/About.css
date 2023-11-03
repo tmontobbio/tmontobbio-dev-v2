@@ -1,5 +1,6 @@
 #about{
-    padding: 5em 2em 2em 2em;
+    padding: 0em 4em 4em 4em;
+    margin-top: 8em;
 }
 
 #img-container{
@@ -8,10 +9,11 @@
 
 #about img{
     height: 80vh;
-    padding: 0em 2em 2em 0em;
+    padding: 0em 3em 2em 0em;
     border-radius:2em;
 }   
 
 #about p{
-    font-size: 2em;
+    font-size: 1.5em;
+    line-height: 1.25em;
 }
