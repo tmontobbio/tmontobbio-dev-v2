@@ -1,9 +1,9 @@
 #contact {
     display: flex;
     justify-content: space-around;
-    padding: 0em 3em 3em 3em;
+    margin-bottom: 5em;
 }
 
 .icon{
-height: 12rem;
+height: 10rem;
 }

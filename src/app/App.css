@@ -6,20 +6,6 @@
   display: none;
 }
 
-@keyframes pop {
-  0% {
-    scale: calc(1.0)
-  }
-
-  50% {
-    scale: calc(1.1)
-  }
-
-  100% {
-    scale: calc(1.0)
-  }
-}
-
 @keyframes textFadeIn {
   0% {
     opacity: 0;
@@ -36,7 +22,7 @@
 }
 
 html {
-  background-image: url("./starry2.gif");
+  background-image: url("../img/starry2.gif");
   background-attachment: fixed;
 }
 

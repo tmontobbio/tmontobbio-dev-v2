@@ -45,7 +45,7 @@ export default function Nav() {
                     </Link>
                 </span>}
             </div> */}
-            <h1>Tyler Montobbio Designs</h1>
+            <h1>Tyler Montobbio Design</h1>
         </div >
     )
 }

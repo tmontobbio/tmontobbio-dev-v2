@@ -1,5 +1,4 @@
 #about{
-    padding: 0em 4em 0em 4em;
     margin-top: 4em;
 }
 
@@ -10,8 +9,13 @@
 #about img{
     height: 70vh;
     padding: 0em 3em 2em 0em;
-    border-radius:2em;
+    border-top-left-radius: 2em;
 }   
+
+#about h1{
+    text-align: center;
+    line-height: 3em;
+}
 
 #about p{
     font-size: 1.5em;

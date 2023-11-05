@@ -5,9 +5,15 @@ import '../App.css';
 export default function Contact() {
     return (
         <div id="contact">
-            <FaGithub className="icon" style={{ color: 'white', opacity: '.7', fontSize: '20em' }} />
-            <FaGoogle className="icon" style={{ color: 'white', opacity: '.7', fontSize: '20em' }} />
-            <FaLinkedinIn className="icon" style={{ color: 'white', opacity: '.7', fontSize: '20em' }} />
+            <a href="https://github.com/tmontobbio" target="_blank" rel="noreferrer">
+                <FaGithub className="icon" style={{ color: 'white', opacity: '.7', fontSize: '20em' }} />
+            </a>
+            <a href="mailto:tylermontobbio@gmail.com" target="_blank" rel="noreferrer">
+                <FaGoogle className="icon" style={{ color: 'white', opacity: '.7', fontSize: '20em' }} />
+            </a>
+            <a href="https://www.linkedin.com/in/tmontobbio" target="_blank" rel="noreferrer">
+                <FaLinkedinIn className="icon" style={{ color: 'white', opacity: '.7', fontSize: '20em' }} />
+            </a>
         </div>
     )
 }
