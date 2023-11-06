@@ -6,33 +6,33 @@ import '../App.css';
 
 export default function Nav() {
     const [show, setShow] = useState(true)
-    const [menuVisible, setMenuVisible] = useState(false)
+    // const [menuVisible, setMenuVisible] = useState(false)
 
-    const toggleMenuVisible = () => {
-        setMenuVisible(!menuVisible)
-    }
+    // const toggleMenuVisible = () => {
+    //     setMenuVisible(!menuVisible)
+    // }
 
-    const controlNavBar = () => {
-        if (window.scrollY > 20) {
-            setShow(false)
-            setMenuVisible(false)
-        } else {
-            setShow(true)
-        }
-    }
+    // const controlNavBar = () => {
+    //     if (window.scrollY > 20) {
+    //         setShow(false)
+    //         setMenuVisible(false)
+    //     } else {
+    //         setShow(true)
+    //     }
+    // }
 
-    useEffect(() => {
-        window.addEventListener('scroll', controlNavBar)
-        return () => {
-            window.removeEventListener('scroll', controlNavBar)
-        }
-    }, [])
+    // useEffect(() => {
+    //     window.addEventListener('scroll', controlNavBar)
+    //     return () => {
+    //         window.removeEventListener('scroll', controlNavBar)
+    //     }
+    // }, [])
 
 
     return (
         <div id="nav" className={!show && 'show'}>
             <h1>Tyler Montobbio Design</h1>
-        </div >
+        </div>
     )
 }
 
