@@ -2,6 +2,9 @@ import SmallSpacer from '../../components/small-spacer/SmallSpacer';
 import './Project.css'
 
 export default function Project({ title, img, description, url }) {
+
+    //testing git push
+
     return (
         <div className="project">
             <a href={url} target="_blank" rel="noreferrer">
