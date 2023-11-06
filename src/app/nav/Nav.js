@@ -31,7 +31,12 @@ export default function Nav() {
 
     return (
         <div id="nav" className={!show && 'show'}>
-            {/* <div id="menu">
+            <h1>Tyler Montobbio Design</h1>
+        </div >
+    )
+}
+
+{/* <div id="menu">
                 <img src={rocket} alt="rocket" onClick={toggleMenuVisible} />
                 {menuVisible && <span>
                     <Link to="projects" spy={true} smooth={true} duration={600} onClick={toggleMenuVisible}>
@@ -45,7 +50,3 @@ export default function Nav() {
                     </Link>
                 </span>}
             </div> */}
-            <h1>Tyler Montobbio Design</h1>
-        </div >
-    )
-}
