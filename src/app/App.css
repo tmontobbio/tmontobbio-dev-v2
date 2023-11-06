@@ -41,15 +41,16 @@ p {
 a {
   cursor: pointer;
 }
+#root{
+  display: flex;
+  justify-content: center;
+}
 
 .App {
   margin: 0vh 5vw 0vh 5vw;
-}
-
-#main {
+  width:70vw;
   background-color: rgba(0, 0, 0, 0.4);
-  overflow: auto;
-  width: 90vw;
+    overflow: auto;
 }
 
 @media (max-width: 1440px) {
@@ -58,7 +59,7 @@ a {
     margin: 0;
   }
 
-  #main {
+  .App {
     border-left: none;
     border-right: none;
     width: 100vw;
