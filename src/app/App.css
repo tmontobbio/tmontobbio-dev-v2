@@ -59,7 +59,7 @@ a {
 @media (max-width: 1440px) {
 
   .App {
-    margin: 0vh 10vw 0vh 10vw !important;
+    margin: 0vh 0vw 0vh 0vw !important;
     display: flex;
     flex-direction: column;
     margin: 0;
