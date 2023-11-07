@@ -32,4 +32,10 @@
         border-top-left-radius: 2em;
     }
 
+    #about h1 {
+        text-align: center;
+        line-height: 1.25em;
+        margin-bottom: 1em;
+    }
+
 }
