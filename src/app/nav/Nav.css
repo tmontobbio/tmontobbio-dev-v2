@@ -1,6 +1,6 @@
 #nav {
-    height: 30vh;
-    padding-top: 7vh;
+    min-height: 20vh;
+    padding-top: 10vh;
 }
 
 #nav h1 {
