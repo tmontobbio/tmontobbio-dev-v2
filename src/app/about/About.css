@@ -27,7 +27,7 @@
 @media (max-width: 1440px) {
 
     #about img {
-        width: 40vw;
+        width: 100%;
         padding: 0em 3em 2em 0em;
         border-top-left-radius: 2em;
     }
