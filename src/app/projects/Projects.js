@@ -29,7 +29,7 @@ export default function Projects() {
             url: "https://moviehunter.tmontobbio.dev/"
         },
         {
-            title: "App4",
+            title: "DogIM",
             img: dogIm,
             description: "A fun dog themed Instant messenger clone I built also while attending Flatiron School.  This project was my first full-stack web app, future features will include websockets for instant updates to messages.  Currently functions like a forum, requiring a refresh to see changes.",
             url: "https://dogim.tmontobbio.dev/"

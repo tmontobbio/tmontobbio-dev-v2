@@ -23,7 +23,7 @@
 
 .project p {
     line-height: 1.1em;
-    font-size: 3em;
+    font-size: .85vw;
 }
 
 .project img {
@@ -40,4 +40,9 @@
     animation: pop 1s infinite;
 }
 
-@media (max-width: 1440px) {}
+@media (max-width: 1440px) {
+
+    .project p {
+        font-size: 3vw;
+    }
+}
