@@ -2,9 +2,22 @@
     display: flex;
     justify-content: space-around;
     margin-bottom: 5em;
-    width:100%;
+    width: 100%;
 }
 
-.icon{
-height: 10rem;
+.icon {
+    height: 10rem;
+}
+
+@media (max-width: 1440px) {
+
+    #contact {
+        height: 1vh;
+    }
+
+    .icon {
+        height: 6vh;
+        width: auto;
+    }
+
 }
