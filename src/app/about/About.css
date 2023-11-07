@@ -1,16 +1,21 @@
 #about {
-    margin-top: 4em;
+    margin-top: 3em;
     width: 100%;
-}
-
-#img-container {
-    float: left;
+    height: auto;
 }
 
 #about img {
     width: 30vw;
+}
+
+#img-1 {
+    float: left;
     padding: 0em 3em 2em 0em;
-    border-top-left-radius: 2em;
+}
+
+#img-2 {
+    float: right;
+    padding: 3em 0em 0em 2em;
 }
 
 #about h1 {
@@ -26,11 +31,25 @@
 
 @media (max-width: 1440px) {
 
+    #about {
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
     #about img {
         width: 100%;
         padding: 0;
-        border-radius: 2em 2em 0em 0em;
-        margin-bottom: 2em;
+    }
+
+    #img-1 {
+        float: auto;
+        padding: 2em 0em 2em 0em;
+    }
+
+    #img-2 {
+        float: auto;
+        padding: 2em 0em 2em 0em;
     }
 
     #about h1 {
@@ -39,7 +58,7 @@
     }
 
     #about p {
-        text-align: left;
+        text-align: center;
         font-size: .8em;
         line-height: 1.2em;
     }
