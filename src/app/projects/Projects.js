@@ -39,9 +39,9 @@ export default function Projects() {
 
     return (
         <div id="projects">
-            {projects && projects.map((p) => {
+            {projects.map((p) => {
                 return (
-                    <Project title={p.title} img={p.img} description={p.description} url={p.url} />
+                    <Project key={p.title} title={p.title} img={p.img} description={p.description} url={p.url} />
                 )
             })}
         </div>

@@ -1,25 +1,35 @@
-#about{
+#about {
     margin-top: 4em;
-    width:100%;
+    width: 100%;
 }
 
-#img-container{
+#img-container {
     float: left;
 }
 
-#about img{
-    height: 70vh;
+#about img {
+    width: 30vw;
     padding: 0em 3em 2em 0em;
     border-top-left-radius: 2em;
-}   
+}
 
-#about h1{
+#about h1 {
     text-align: center;
     line-height: 3em;
 }
 
-#about p{
+#about p {
     font-size: 1.5em;
     line-height: 1.25em;
     text-align: center;
+}
+
+@media (max-width: 1440px) {
+
+    #about img {
+        width: 40vw;
+        padding: 0em 3em 2em 0em;
+        border-top-left-radius: 2em;
+    }
+
 }

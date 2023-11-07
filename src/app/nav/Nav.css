@@ -1,58 +1,9 @@
-#nav{
-    height:30vh;
-}
-
-#nav h1{
-    text-align: center;
-    padding-top:7vh;
-    font-size: 6em;
-}
-
-
-/* #nav {
-    display: inline-flex;
-    justify-content: space-around;
-    position: fixed;
-    top: 0;
-    padding: 1.25em;
-    width: 100%;
-    height: 2.25em;
-    max-height: 150px;
-}
-
-.show{
-    display: none !important;
-}
-
-#nav span {
-    text-align: center;
-    max-height: 100%;
+#nav {
+    height: 30vh;
 }
 
 #nav h1 {
-    color: var(--text-color);
-    font-size: 2em;
+    text-align: center;
+    padding-top: 7vh;
+    font-size: 6em;
 }
-
-#nav li {
-    color: var(--text-color);
-    text-align: left;
-    font-size: 1em;
-    list-style: none;
-    padding-right: 2em;
-    animation: fadeIn 1s;
-}
-
-#nav img:hover,
-#nav li:hover {
-    animation: pop 1s;
-    animation-iteration-count: infinite;
-}
-
-#menu{
-    line-height: 2.25em;
-}
-#menu img {
-    opacity: .7;
-    height: 3em;
-} */
