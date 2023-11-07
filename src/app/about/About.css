@@ -1,11 +1,12 @@
 #about {
     margin-top: 3em;
     width: 100%;
-    height: auto;
+    overflow: hidden;
 }
 
 #about img {
     width: 30vw;
+    max-width: fit-content;
 }
 
 #img-1 {
@@ -35,6 +36,7 @@
         margin: 0;
         width: 100%;
         height: auto;
+        overflow: hidden;
     }
 
     #about img {
