@@ -1,10 +1,12 @@
 #projects {
-    display:inline-flex;
+    display: inline-flex;
     flex-direction: row;
-    gap:4vw;
+    gap: 4vw;
     height: 30vh;
-    width:100%;
+    width: 100%;
     max-width: 90vw;
     overflow-y: hidden;
     overflow-x: scroll;
 }
+
+@media (max-width: 1440px) {}
