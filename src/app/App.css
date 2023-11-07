@@ -24,6 +24,7 @@
 
 html {
   background-image: url("../img/starry2.gif");
+  margin-top: 10vh;
   background-attachment: fixed;
     background-repeat: norepeat;
     background-size: cover;
