@@ -25,6 +25,12 @@
 html {
   background-image: url("../img/starry2.gif");
   background-attachment: fixed;
+  background-position: center;
+    background-repeat: norepeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 h1,
